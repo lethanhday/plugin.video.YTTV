@@ -20,10 +20,10 @@ def add_video_item(url, infolabels, img=''):
     xbmcplugin.addDirectoryItem(plugin_handle, url, listitem)
     return
 
-add_video_item('http://210.211.108.67:1935/hytcc/hytcc.stream/playlist.m3u8',{ 'title': 'YTTV'}, icon)
+add_video_item('http://210.211.108.67:1935/hytcc/hytcc.stream/playlist.m3u8',{ 'title': 'YTTV'}, "special://home/addons/plugin.video.YTTV/icon/Logo YTTV Final.png")
 add_video_item('rtmp://tv.kgtv.vn/livepkgr/kgtv?adbe-live-event=liveevent',{ 'title': 'Kiên giang'}, "special://home/addons/plugin.video.YTTV/icon/Kien_Giang_TV.png")
 add_video_item('rtmp://tv.kgtv.vn:1935/livepkgr/kgtv1?adbe-live-event=liveevent',{ 'title': 'Kiên giang 1'}, "special://home/addons/plugin.video.YTTV/icon/KG.png")
-add_video_item('http://210.211.108.67:1935/vtsic/vtsic.stream/playlist.m3u8',{ 'title': 'Trực tiếp Kiên giang 2'}, icon)
+add_video_item('http://210.211.108.67:1935/vtsic/vtsic.stream/playlist.m3u8',{ 'title': 'Trực tiếp Kiên giang 2'}, "special://home/addons/plugin.video.YTTV/icon/Logo YTTV Final.png")
 add_video_item('http://210.211.108.67:1935/dn/_definst_/v_dn2.stream/playlist.m3u8',{ 'title': 'Đồng Nai 2'}, "special://home/addons/plugin.video.YTTV/icon/Dong_Nai_TV2.png")
 add_video_item('http://210.211.108.67:1935/dn/_definst_/htvmuasam.stream/playlist.m3u8',{ 'title': 'HTV Shopping'}, "special://home/addons/plugin.video.YTTV/icon/HTVC_Shopping.png")
 

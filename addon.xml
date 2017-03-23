@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.YTTV"
        name="TiVi"
-       version="0.0.5"
+       version="0.1.5"
        provider-name="Lê Thanh">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -17,7 +17,7 @@
     <description lang="en">YTTV - Kênh truyền hình y Tế - vì xã hội phục vụ</description>
      <platform>all</platform>
 	 <license>GNU General Public License - v2</license>
-	<source>https://github.com/lethanhday/yttv</source>
+	<source>https://github.com/lethanhday/plugin.video.YTTV</source>
 	<email>trungtamnghenhin@gmail.com</email>
   </extension>
 </addon>
