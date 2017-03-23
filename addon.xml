@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.YTTV"
+       name="TiVi"
+       version="0.0.5"
+       provider-name="Lê Thanh">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Xem Truyền hình</summary>
+    <language>en</language>
+    <description lang="en">YTTV - Kênh truyền hình y Tế - vì xã hội phục vụ</description>
+     <platform>all</platform>
+	 <license>GNU General Public License - v2</license>
+	<source>https://github.com/lethanhday/yttv</source>
+	<email>trungtamnghenhin@gmail.com</email>
+  </extension>
+</addon>
